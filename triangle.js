@@ -1,5 +1,7 @@
-var nuevo = require("@alu0100785265/ull-shape-lucas");
-var Shape = nuevo.Shape;
+
+'use strict'
+
+let Shape = require('@alu0100785265/ull-shape-lucas');
 
 class Triangle extends Shape {
     constructor(options) {

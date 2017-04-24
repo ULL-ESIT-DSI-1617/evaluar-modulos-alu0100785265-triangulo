@@ -1,10 +1,10 @@
 {
   "name": "@alu0100785265/ull-shape-lucas-triangulo",
-  "version": "1.0.0",
+  "version": "1.0.6",
   "description": "",
   "main": "triangle.js",
   "scripts": {
-    "test": "./node_modules/mocha/bin/mocha --require should"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/ULL-ESIT-DSI-1617/evaluar-modulos-alu0100785265-triangulo#readme",
   "dependencies": {
-    "@alu0100785265/ull-shape-lucas": "^1.0.0"
+    "mocha": "^2.3.3",
+    "should": "^7.1.1"
   }
+ 
 }
