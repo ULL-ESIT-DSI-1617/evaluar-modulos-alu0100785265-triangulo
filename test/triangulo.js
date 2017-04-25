@@ -1,4 +1,5 @@
 "use strict"
+var nuevo = require("@alu0100785265/ull-shape-lucas");
 
 let Triangle = require("../lib/triangle");
 var should = require('should');
