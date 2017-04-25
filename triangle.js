@@ -13,3 +13,5 @@ class Triangle extends Shape {
 }
 Shape.Shapes.Triangle = Triangle;
 module.exports = Triangle;
+
+
