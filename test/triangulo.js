@@ -1,7 +1,9 @@
 "use strict"
 
 var Tri = require('../triangle.js')
-var Shape = require("@alu0100785265/ull-shape-lucas")
+var Sh = require("@alu0100785265/ull-shape-lucas")
+var Shape = Sh.Shape
+
 var Triangle = Tri.Triangle
 var should = require('should');
 
