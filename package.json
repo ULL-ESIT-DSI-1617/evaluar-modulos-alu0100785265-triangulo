@@ -4,7 +4,7 @@
   "description": "",
   "main": "triangle.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/mocha/bin/mocha --require should"
   },
   "repository": {
     "type": "git",
@@ -17,8 +17,7 @@
   },
   "homepage": "https://github.com/ULL-ESIT-DSI-1617/evaluar-modulos-alu0100785265-triangulo#readme",
   "dependencies": {
-    "mocha": "^2.3.3",
+    "mocha": "^2.5.3",
     "should": "^7.1.1"
   }
- 
 }

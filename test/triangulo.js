@@ -1,21 +1,19 @@
 "use strict"
 
 var Tri = require('../triangle.js')
+var Shape = require("@alu0100785265/ull-shape-lucas")
 var Triangle = Tri.Triangle
 var should = require('should');
 
 
 
-describe("Triangle", function() {
-
-   it("Inicializacion", function() {
-        should.exist(new Triangle({width:15, height:15}));
-   })
-  
-   it("Calculo del area triangulo", function() {
-        var result = new Triangle({width:15, height:15}).area();
-        result.should.equal(112.5);
-   })
+describe("getArea", function() {
+  it("must compute the triangle area correctly. Shape object", function() {
+    let a = new Shape({ width: 100, height: 50 }, 'Triangle');
+    let s = a.getArea();
+    s.should.match(/^5000$/);
+  })
+   
    
 });
       
