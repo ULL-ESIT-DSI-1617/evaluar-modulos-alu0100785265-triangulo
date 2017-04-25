@@ -1,8 +1,8 @@
 "use strict"
 
-
-var should = require('should');
 let Triangle = require("../lib/triangle");
+var should = require('should');
+
 
 
 describe("getArea", function() {
