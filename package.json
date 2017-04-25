@@ -1,6 +1,6 @@
 {
   "name": "@alu0100785265/ull-shape-lucas-triangulo",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "",
   "main": "triangle.js",
   "scripts": {
@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/ULL-ESIT-DSI-1617/evaluar-modulos-alu0100785265-triangulo#readme",
   "dependencies": {
-    "ull-shape-lucas-ivan-miguel-jairo": "^1.0.1",
+    "@alu0100785265/ull-shape-lucas": "^1.0.1",
     "mocha": "^2.5.3",
     "should": "^7.1.1"
   }
